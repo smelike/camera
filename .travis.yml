@@ -1,7 +1,7 @@
 language: php
 php:
         - '7.0'
-
+sudo: required
 before_script:
 
         - sudo composer global require "laravel/installer"
