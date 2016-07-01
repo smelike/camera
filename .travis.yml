@@ -4,4 +4,4 @@ php:
 
 before_script:
 
-        - composer global require "laravel/installer"
+        - sudo composer global require "laravel/installer"
